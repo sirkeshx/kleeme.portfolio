@@ -32,7 +32,7 @@ export const portfolioData =
     thumbnail: "https://packemwms.com/wp-content/uploads/2022/12/packemWMS_logo_white_background.jpg",
     url: "https://packemwms.com",
     brandColor: "#ffffff"
-  },,{
+  },{
     id: 5,
     name: "00001 Client At (Upwork)",
     summary: "I was engaged by an individual startup owner through the freelance platform Upwork to develop an online food platform similar to Grab Food. The project involved creating a user-friendly website allowing customers to conveniently order and have their food delivered to their homes.",
