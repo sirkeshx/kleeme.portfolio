@@ -28,9 +28,9 @@ export default function Portfolio() {
         useFlexGap
         flexWrap="wrap"
       >
-        {portfolioData.map((data, key) => {
+        {portfolioData.map((data) => {
           return (
-            <Card sx={{ maxWidth: 345 }}>
+            <Card key={data?.id} sx={{ maxWidth: 345 }}>
               <CardMedia
                 sx={{ background: data?.brandColor, objectFit: "contain" }}
                 component="img"
