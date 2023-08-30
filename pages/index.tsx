@@ -20,7 +20,7 @@ export default function Home() {
         <Avatar
           alt="Hi, I am Kristopher Lee"
           sx={{ height: 200, width: 200 }}
-          src="/profile-picture.png"
+          src="./profile-picture.png"
         />
       </Box>
       <Box sx={{ display: "flex", justifyContent: "center" }}>
@@ -70,7 +70,7 @@ export default function Home() {
           <Link href="/portfolio" style={{ textDecoration: "none" }}>
             <Button variant="contained">Portfolio</Button>
           </Link>
-          <Link href="/CV2023.pdf" style={{ textDecoration: "none" }}>
+          <Link href="./CV2023.pdf" style={{ textDecoration: "none" }}>
             <Button variant="outlined">Download CV</Button>
           </Link>
         </Stack>

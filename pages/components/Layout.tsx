@@ -49,7 +49,7 @@ export default function Layout({ children }: any) {
                 Portfolio
               </Typography>
             </Link>
-            <Link href="/CV2023.pdf" style={{ textDecoration: "none" }}>
+            <Link href="./CV2023.pdf" style={{ textDecoration: "none" }}>
               <Button variant="outlined">Download CV</Button>
             </Link>
           </nav>
